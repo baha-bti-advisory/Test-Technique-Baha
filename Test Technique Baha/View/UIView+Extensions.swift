@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 extension UIView {
+    // MARK: --Shadow for the cell
     func applyShadow(radius: CGFloat, color: UIColor, opacity: Float, shadowOffset: CGSize = CGSize(width: -1, height: -1)) {
         self.layer.shadowColor = color.cgColor
         self.layer.shadowRadius = radius
