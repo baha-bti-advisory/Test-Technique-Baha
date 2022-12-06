@@ -53,5 +53,15 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             
             return cell
         }
+    
+    // MARK: -- Display detail
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsViewController") as! DetailsViewController
+        // MARK: -- Pass data
+        vc.jetBraindetail = JetBrainService.instance.jetBrainArray[indexPath.row]
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+        
+    }
 }
 

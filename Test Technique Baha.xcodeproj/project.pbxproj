@@ -21,6 +21,7 @@
 		02BFC76E293FBEFA00493A4A /* JetBrainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC76D293FBEFA00493A4A /* JetBrainModel.swift */; };
 		02BFC770293FBF2700493A4A /* JetBrainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC76F293FBF2700493A4A /* JetBrainService.swift */; };
 		02BFC772293FC2AF00493A4A /* JetBrainListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC771293FC2AF00493A4A /* JetBrainListCell.swift */; };
+		02BFC775293FC74F00493A4A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC774293FC74F00493A4A /* DetailsViewController.swift */; };
 		2C062AB33D8E588FEC159322 /* Pods_Test_Technique_BahaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2439CD1AB7BF0EC03D65508 /* Pods_Test_Technique_BahaTests.framework */; };
 		7C78E1B7C9FBCE79246A3959 /* Pods_Test_Technique_Baha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F9CA99A387732F6E532B8 /* Pods_Test_Technique_Baha.framework */; };
 		7F859C9733ADC799B0FC4ABB /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800D182DC027055DF521CBA2 /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework */; };
@@ -62,6 +63,7 @@
 		02BFC76D293FBEFA00493A4A /* JetBrainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetBrainModel.swift; sourceTree = "<group>"; };
 		02BFC76F293FBF2700493A4A /* JetBrainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetBrainService.swift; sourceTree = "<group>"; };
 		02BFC771293FC2AF00493A4A /* JetBrainListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetBrainListCell.swift; sourceTree = "<group>"; };
+		02BFC774293FC74F00493A4A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		13B8483B680BD46F2512BBB8 /* Pods-Test Technique BahaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique BahaTests.debug.xcconfig"; path = "Target Support Files/Pods-Test Technique BahaTests/Pods-Test Technique BahaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32AB0739E23F6F541F2FB121 /* Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		369F9CA99A387732F6E532B8 /* Pods_Test_Technique_Baha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Technique_Baha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				02BFC768293FBD6700493A4A /* MainViewController */,
+				02BFC773293FC71800493A4A /* DetailsViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +208,14 @@
 				02BFC771293FC2AF00493A4A /* JetBrainListCell.swift */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		02BFC773293FC71800493A4A /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				02BFC774293FC74F00493A4A /* DetailsViewController.swift */,
+			);
+			path = DetailsViewController;
 			sourceTree = "<group>";
 		};
 		31919741D41DA7413244DA3F /* Pods */ = {
@@ -471,6 +482,7 @@
 			files = (
 				02BFC770293FBF2700493A4A /* JetBrainService.swift in Sources */,
 				02BFC76E293FBEFA00493A4A /* JetBrainModel.swift in Sources */,
+				02BFC775293FC74F00493A4A /* DetailsViewController.swift in Sources */,
 				02BFC76C293FBEB200493A4A /* Constants.swift in Sources */,
 				02BFC738293FBB6700493A4A /* MainViewController.swift in Sources */,
 				02BFC772293FC2AF00493A4A /* JetBrainListCell.swift in Sources */,
