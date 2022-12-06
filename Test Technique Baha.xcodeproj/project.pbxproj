@@ -16,6 +16,9 @@
 		02BFC74B293FBB6800493A4A /* Test_Technique_BahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC74A293FBB6800493A4A /* Test_Technique_BahaTests.swift */; };
 		02BFC755293FBB6800493A4A /* Test_Technique_BahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC754293FBB6800493A4A /* Test_Technique_BahaUITests.swift */; };
 		02BFC757293FBB6800493A4A /* Test_Technique_BahaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFC756293FBB6800493A4A /* Test_Technique_BahaUITestsLaunchTests.swift */; };
+		2C062AB33D8E588FEC159322 /* Pods_Test_Technique_BahaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2439CD1AB7BF0EC03D65508 /* Pods_Test_Technique_BahaTests.framework */; };
+		7C78E1B7C9FBCE79246A3959 /* Pods_Test_Technique_Baha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F9CA99A387732F6E532B8 /* Pods_Test_Technique_Baha.framework */; };
+		7F859C9733ADC799B0FC4ABB /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800D182DC027055DF521CBA2 /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		02BFC750293FBB6800493A4A /* Test Technique BahaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Technique BahaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BFC754293FBB6800493A4A /* Test_Technique_BahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Technique_BahaUITests.swift; sourceTree = "<group>"; };
 		02BFC756293FBB6800493A4A /* Test_Technique_BahaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Technique_BahaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13B8483B680BD46F2512BBB8 /* Pods-Test Technique BahaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique BahaTests.debug.xcconfig"; path = "Target Support Files/Pods-Test Technique BahaTests/Pods-Test Technique BahaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32AB0739E23F6F541F2FB121 /* Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		369F9CA99A387732F6E532B8 /* Pods_Test_Technique_Baha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Technique_Baha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514E9300C2E6FE6D135668FD /* Pods-Test Technique Baha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique Baha.release.xcconfig"; path = "Target Support Files/Pods-Test Technique Baha/Pods-Test Technique Baha.release.xcconfig"; sourceTree = "<group>"; };
+		800D182DC027055DF521CBA2 /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A845EC5C283E1795D34E8035 /* Pods-Test Technique BahaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique BahaTests.release.xcconfig"; path = "Target Support Files/Pods-Test Technique BahaTests/Pods-Test Technique BahaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C22C8BEBF070588C1321C8A7 /* Pods-Test Technique Baha-Test Technique BahaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique Baha-Test Technique BahaUITests.release.xcconfig"; path = "Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2439CD1AB7BF0EC03D65508 /* Pods_Test_Technique_BahaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Technique_BahaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8EE0743C7504C7C58BA73F /* Pods-Test Technique Baha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Technique Baha.debug.xcconfig"; path = "Target Support Files/Pods-Test Technique Baha/Pods-Test Technique Baha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C78E1B7C9FBCE79246A3959 /* Pods_Test_Technique_Baha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C062AB33D8E588FEC159322 /* Pods_Test_Technique_BahaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F859C9733ADC799B0FC4ABB /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				02BFC749293FBB6800493A4A /* Test Technique BahaTests */,
 				02BFC753293FBB6800493A4A /* Test Technique BahaUITests */,
 				02BFC731293FBB6700493A4A /* Products */,
+				31919741D41DA7413244DA3F /* Pods */,
+				E7F62301AE8EA1E93ECFBDD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = "Test Technique BahaUITests";
 			sourceTree = "<group>";
 		};
+		31919741D41DA7413244DA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8EE0743C7504C7C58BA73F /* Pods-Test Technique Baha.debug.xcconfig */,
+				514E9300C2E6FE6D135668FD /* Pods-Test Technique Baha.release.xcconfig */,
+				32AB0739E23F6F541F2FB121 /* Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig */,
+				C22C8BEBF070588C1321C8A7 /* Pods-Test Technique Baha-Test Technique BahaUITests.release.xcconfig */,
+				13B8483B680BD46F2512BBB8 /* Pods-Test Technique BahaTests.debug.xcconfig */,
+				A845EC5C283E1795D34E8035 /* Pods-Test Technique BahaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7F62301AE8EA1E93ECFBDD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369F9CA99A387732F6E532B8 /* Pods_Test_Technique_Baha.framework */,
+				800D182DC027055DF521CBA2 /* Pods_Test_Technique_Baha_Test_Technique_BahaUITests.framework */,
+				C2439CD1AB7BF0EC03D65508 /* Pods_Test_Technique_BahaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BFC75A293FBB6800493A4A /* Build configuration list for PBXNativeTarget "Test Technique Baha" */;
 			buildPhases = (
+				DDE07FEE832AFAE84F223D0B /* [CP] Check Pods Manifest.lock */,
 				02BFC72C293FBB6700493A4A /* Sources */,
 				02BFC72D293FBB6700493A4A /* Frameworks */,
 				02BFC72E293FBB6700493A4A /* Resources */,
+				2A500E38A127D6DF9CA6A7DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BFC75D293FBB6800493A4A /* Build configuration list for PBXNativeTarget "Test Technique BahaTests" */;
 			buildPhases = (
+				9E1E293AA9DF0CD3D50D25BB /* [CP] Check Pods Manifest.lock */,
 				02BFC742293FBB6800493A4A /* Sources */,
 				02BFC743293FBB6800493A4A /* Frameworks */,
 				02BFC744293FBB6800493A4A /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BFC760293FBB6800493A4A /* Build configuration list for PBXNativeTarget "Test Technique BahaUITests" */;
 			buildPhases = (
+				C79A37E2B2395AA7D14C53A7 /* [CP] Check Pods Manifest.lock */,
 				02BFC74C293FBB6800493A4A /* Sources */,
 				02BFC74D293FBB6800493A4A /* Frameworks */,
 				02BFC74E293FBB6800493A4A /* Resources */,
+				FA96077CCBDA7CD24921D80F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A500E38A127D6DF9CA6A7DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha/Pods-Test Technique Baha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha/Pods-Test Technique Baha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha/Pods-Test Technique Baha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1E293AA9DF0CD3D50D25BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Technique BahaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79A37E2B2395AA7D14C53A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Technique Baha-Test Technique BahaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE07FEE832AFAE84F223D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Technique Baha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA96077CCBDA7CD24921D80F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Technique Baha-Test Technique BahaUITests/Pods-Test Technique Baha-Test Technique BahaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02BFC72C293FBB6700493A4A /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		02BFC75B293FBB6800493A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8EE0743C7504C7C58BA73F /* Pods-Test Technique Baha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		02BFC75C293FBB6800493A4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514E9300C2E6FE6D135668FD /* Pods-Test Technique Baha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		02BFC75E293FBB6800493A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B8483B680BD46F2512BBB8 /* Pods-Test Technique BahaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		02BFC75F293FBB6800493A4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A845EC5C283E1795D34E8035 /* Pods-Test Technique BahaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		02BFC761293FBB6800493A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AB0739E23F6F541F2FB121 /* Pods-Test Technique Baha-Test Technique BahaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		02BFC762293FBB6800493A4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22C8BEBF070588C1321C8A7 /* Pods-Test Technique Baha-Test Technique BahaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
