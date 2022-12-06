@@ -20,8 +20,19 @@ class MainViewController: UIViewController {
         JetBrainService.instance.getJetBrain { success in
             self.tableView.reloadData()
         }
+        // MARK: -- Implementing Pull to Refresh
+        tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.addTarget(self, action: #selector(didPullToRefresh), for: .valueChanged)
     }
-
+    
+    @objc private func didPullToRefresh() {
+        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+            JetBrainService.instance.getJetBrain { success in
+                self.tableView.reloadData()
+            }
+            self.tableView.refreshControl?.endRefreshing()
+        }
+    }
 
 }
 
